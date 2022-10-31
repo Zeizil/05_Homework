@@ -22,7 +22,6 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" src="./script.js" />
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -35,9 +34,25 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <!-- It will only be one day (whatever the current day is) -->
+      <p id="day" class="date"></p>
+      
+      <section id="9am" class="row">
+        <!-- put in hour, text box, completion button -->
+      </section>
+      <section id="10am" class="row"></section>
+      <section id="11am" class="row"></section>
+      <section id="12am" class="row"></section>
+      <section id="1pm" class="row"></section>
+      <section id="2pm" class="row"></section>
+      <section id="3pm" class="row"></section>
+      <section id="4pm" class="row"></section>
+      <section id="5pm" class="row"></section>
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
