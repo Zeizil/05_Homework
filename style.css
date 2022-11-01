@@ -35,7 +35,14 @@ textarea {
   border-bottom: 5px solid black;
 }
 
+/* Make container a flex container */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .time-block {
+  flex: 1 0 200px;
   text-align: center;
   border-radius: 15px;
 }
@@ -49,7 +56,9 @@ textarea {
 .hour {
   background-color: #ffffff;
   color: #000000;
+  width: 80px;
   border-top: 1px dashed #000000;
+  margin-right: 2px;
 }
 
 .past {
